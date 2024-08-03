@@ -33,9 +33,6 @@ Follow these steps to set up the project locally:
      ```bash
     composer install
 
-    Install JavaScript dependencies:
-    npm install
-
 3. **Install Dependencies**
 
     Install JavaScript dependencies:
