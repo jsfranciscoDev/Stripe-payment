@@ -51,6 +51,23 @@ Follow these steps to set up the project locally:
      ```bash
    STRIPE_KEY=your_publishable_key
    STRIPE_SECRET=your_secret_key
+   To obtain your Stripe API keys, follow these steps:
+
+   Sign In to Your Stripe Account
+
+   Go to the Stripe Dashboard and log in to your Stripe account. If you don’t have an account, you can create one here.
+
+   Navigate to API Keys
+
+   In the Stripe Dashboard, go to the Developers section from the left-hand menu and click on API keys.
+
+   Retrieve Your API Keys
+
+   Publishable Key: This key is used in your client-side code and is visible to your users. You can find it under "Standard keys".
+   Secret Key: This key is used in your server-side code and should be kept confidential. It is also under "Standard keys".
+   Copy and Paste
+
+   Copy the keys from the Stripe Dashboard and paste them into your .env file in place of your_publishable_key and your_secret_key.
 
 
 6. **Start the Laravel Development Server**
