@@ -34,27 +34,30 @@ Follow these steps to set up the project locally:
     composer install
 
     Install JavaScript dependencies:
-    ```bash
     npm install
 
-3. **Set Up Environment**
+3. **Install Dependencies**
+
+    Install JavaScript dependencies:
+     ```bash
+   npm install
+
+
+4. **Set Up Environment**
 
     Copy the .env.example file to .env:
      ```bash
    cp .env.example .env
 
-4. **Set Up Environment**
+5. **Set Up Environment**
 
    Generate an application key:
      ```bash
    php artisan key:generate
 
-5. **Configure Stripe**
+6. **Configure Stripe**
 
    In your .env file, add your Stripe API keys:
-     ```bash
-   STRIPE_KEY=your_publishable_key
-   STRIPE_SECRET=your_secret_key
    To obtain your Stripe API keys, follow these steps:
 
    Sign In to Your Stripe Account
@@ -72,6 +75,12 @@ Follow these steps to set up the project locally:
    Copy and Paste
 
    Copy the keys from the Stripe Dashboard and paste them into your .env file in place of your_publishable_key and your_secret_key.
+
+    ```bash
+   STRIPE_KEY=your_publishable_key
+   STRIPE_SECRET=your_secret_key
+
+  
 
 
 6. **Start the Laravel Development Server**
