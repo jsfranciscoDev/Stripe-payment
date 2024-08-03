@@ -33,6 +33,10 @@ Follow these steps to set up the project locally:
      ```bash
     composer install
 
+    Install JavaScript dependencies:
+    ```bash
+    npm install
+
 3. **Set Up Environment**
 
     Copy the .env.example file to .env:
